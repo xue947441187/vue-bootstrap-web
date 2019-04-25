@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style>
-  #App{
+  App{
 
   }
 
