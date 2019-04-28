@@ -1,5 +1,5 @@
 <template>
-  <div class="top ">
+  <div class="top">
     <div class="dropdown">
       <!--      <li role="presentation" class="active"><a href="#"><img class="logo"-->
       <!--                                                              alt="测试背景"></a></li>-->
@@ -22,7 +22,9 @@
               aria-hidden="false"></span>我们的故事</a></li>
           </ul>
         </li>
-        <li role="presentation" class="login-reght" id="login"><a href="/" title="点击进入主页"><span
+<!--        音乐控件-->
+        <audio src="" controls="controls"></audio>
+        <li role="presentation" class="login-reght" id="login"><a href="/login" title="点击进行登录"><span
           class="glyphicon glyphicon glyphicon-user "
           aria-hidden="false"></span>登录</a></li>
         <li id="login-list" role="presentation" class="dropdown login-reght">
@@ -59,7 +61,7 @@
           } else if (success === false) {
             $("#login").show();
             $("#login-list").hide();
-            $.cookie("login",null)
+            $.cookie("login", null)
           }
         } else {
           $("#login").show();
@@ -68,7 +70,9 @@
 
 
         $("#login")
-      }
+      },
+
+
     }
 
   }

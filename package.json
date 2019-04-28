@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "bootstrap": "^3.4.1",
+    "popover": "^2.4.1",
+    "popover.js": "^0.2.40",
     "popper.js": "^1.15.0",
+    "video.js": "^7.5.4",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

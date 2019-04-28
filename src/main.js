@@ -6,7 +6,8 @@ import router from './router'
 import top from './top/top'
 import $ from 'jquery'
 import jquery from "jquery"
-import '../node_modules/bootstrap/dist/js/bootstrap'
+import "../node_modules/popper.js/dist/popper"
+import '../node_modules/bootstrap/dist/js/bootstrap.min'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 Vue.config.productionTip = false
